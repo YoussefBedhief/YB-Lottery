@@ -1,6 +1,7 @@
 import type { NextPage } from "next"
 import { useState, useEffect } from "react"
 import Head from "next/head"
+import Favicon from "../assets/favicon.png"
 import Header from "../components/Header"
 import Login from "../components/Login"
 import {
@@ -97,6 +98,7 @@ const Home: NextPage = () => {
     <div className="bg-[#091B18] min-h-screen">
       <Head>
         <title>YB Lottery</title>
+        <link rel="shortcut icon" href="./favicon.png" />
       </Head>
       <div className="flex-1">
         <Header />

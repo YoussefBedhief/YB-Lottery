@@ -9,6 +9,7 @@
     "@heroicons/react": "^2.0.13",
     "@thirdweb-dev/react": "^3.5.2",
     "@thirdweb-dev/sdk": "^3.5.2",
+    "@types/canvas-confetti": "^1.6.0",
     "canvas-confetti": "^1.6.0",
     "ethers": "^5.7.2",
     "next": "latest",
